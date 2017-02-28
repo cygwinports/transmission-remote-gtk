@@ -1,0 +1,10 @@
+--- origsrc/transmission-remote-gtk-1.3.1/configure.ac	2016-08-12 06:15:45.000000000 -0500
++++ src/transmission-remote-gtk-1.3.1/configure.ac	2016-12-12 01:13:07.139259000 -0600
+@@ -57,7 +57,6 @@ AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], ["
+ dnl ---- win32 ----
+ case "${host_os}" in
+         *mingw32*) WIN32="yes" ;;
+-        *cygwin*) WIN32="yes" ;;
+         *freebsd*) WIN32="no";
+         	CPPFLAGS="$CPPFLAGS -I/usr/local/include" ;;
+         *) WIN32="no" ;;
